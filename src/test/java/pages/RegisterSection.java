@@ -14,7 +14,9 @@ public class RegisterSection {
 
     public TextBox nameTxtBox = new TextBox(By.xpath("//input[@id='element-0']"));
 
-    public Button skip = new Button(By.xpath("//button//span[text()='Skip']"));
+    public Button skip = new Button(By.xpath("(//button[@type='button'])[1]"));
 
-    public Button signUpButton = new Button(By.xpath("//button//span[text()='Sign up with Email']"));
+    public Button continueButton = new Button(By.xpath("//button[@type='submit']"));
+
+    public Button signUpButton = new Button(By.xpath("//button[@data-gtm-id='start-email-signup']"));
 }
