@@ -16,7 +16,7 @@ public class TestBase2 {
     protected SettingsSection settingsSection = new SettingsSection();
     @BeforeEach
     public void openBrowser(){
-        Session.getSession().goTo("http://todoist.com/");
+        Session.getSession().goTo("http://todo.ly/");
     }
 
     @AfterEach
